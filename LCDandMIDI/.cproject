@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.debug.435413055">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.debug.435413055" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.debug.435413055" name="Debug" parent="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.debug">
+					<folderInfo id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.debug.435413055." name="/" resourcePath="">
+						<toolChain id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.toolchain.exe.debug.299619251" name="GCC 4.x [arm-linux-gnueabihf] (DS-5 built-in)" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.toolchain.exe.debug">
+							<targetPlatform id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.target.platform.base.exe.debug.1346571475" name="%target" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.target.platform.base.exe.debug"/>
+							<builder buildPath="${workspace_loc:/LCD2}/Debug" id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.target.builder.exe.debug.321493765" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.target.builder.exe.debug"/>
+							<tool command="arm-linux-gnueabihf-g++ " id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.exe.debug.1310852539" name="GCC C++ Compiler 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.exe.debug">
+								<option id="gnu.cpp.compiler.option.optimization.level.1283853364" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.2102171091" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.943250406" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\altera\14.1\embedded\ip\altera\hps\altera_hps\hwlib\include&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.dialect.std.1856970198" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.other.other.309432464" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -fpermissive -lrt" valueType="string"/>
+								<inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.input.626063266" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.input"/>
+							</tool>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.exe.debug.702883353" name="GCC C Compiler 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.13160812" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.735711704" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.119418310" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\altera\14.1\embedded\ip\altera\hps\altera_hps\hwlib\include&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.1690835711" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" value="gnu.c.compiler.dialect.c11" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.other.564523947" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -lrt" valueType="string"/>
+								<inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.input.790884944" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.input"/>
+							</tool>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.assembler.base.exe.debug.1472847608" name="GCC Assembler 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.assembler.base.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1392047007" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.linker.base.exe.debug.818970267" name="GCC C Linker 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.linker.base.exe.debug"/>
+							<tool command="arm-linux-gnueabihf-g++ " id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.linker.base.exe.debug.1453444719" name="GCC C++ Linker 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.linker.base.exe.debug">
+								<option id="gnu.cpp.link.option.libs.1255308070" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs"/>
+								<option id="gnu.cpp.link.option.flags.934515491" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1487026426" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.archiver.base.exe.debug.1232791825" name="GCC Archiver 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.archiver.base.exe.debug"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.release.81462643">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.release.81462643" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.release.81462643" name="Release" parent="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.release">
+					<folderInfo id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.release.81462643." name="/" resourcePath="">
+						<toolChain id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.toolchain.exe.release.1681245651" name="GCC 4.x [arm-linux-gnueabihf] (DS-5 built-in)" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.toolchain.exe.release">
+							<targetPlatform id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.target.platform.base.exe.release.1094082906" name="%target" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.target.platform.base.exe.release"/>
+							<builder buildPath="${workspace_loc:/LCD2}/Release" id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.target.builder.exe.release.378674530" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.target.builder.exe.release"/>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.exe.release.241458785" name="GCC C++ Compiler 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.exe.release">
+								<option id="gnu.cpp.compiler.option.optimization.level.1033512831" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.353701120" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.input.1112840622" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.input"/>
+							</tool>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.exe.release.2104616770" name="GCC C Compiler 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.479828073" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1421746637" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.input.1663018453" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.input"/>
+							</tool>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.assembler.base.exe.release.1730082102" name="GCC Assembler 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.assembler.base.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.558123018" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.linker.base.exe.release.789856568" name="GCC C Linker 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.linker.base.exe.release"/>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.linker.base.exe.release.244769464" name="GCC C++ Linker 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.linker.base.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.841169716" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.archiver.base.exe.release.584430481" name="GCC Archiver 4 [arm-linux-gnueabihf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.archiver.base.exe.release"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="LCD2.com.arm.eclipse.cdt.managedbuild.ds5.gcc.target.gnu.exe.284419326" name="Executable" projectType="com.arm.eclipse.cdt.managedbuild.ds5.gcc.target.gnu.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.debug.435413055;com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.debug.435413055.;com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.exe.debug.702883353;com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.input.790884944">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.arm.managedbuilder.gcc.ARMGCCDiscoveryProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.release.81462643;com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.release.81462643.;com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.exe.release.241458785;com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.input.1112840622">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.arm.managedbuilder.gcc.ARMGCCDiscoveryProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.release.81462643;com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.release.81462643.;com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.exe.release.2104616770;com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.c.compiler.base.input.1663018453">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.arm.managedbuilder.gcc.ARMGCCDiscoveryProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.debug.435413055;com.arm.eclipse.cdt.managedbuild.ds5.gcc.config.gnu.exe.debug.435413055.;com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.exe.debug.1310852539;com.arm.eclipse.cdt.managedbuild.ds5.gcc.tool.cpp.compiler.base.input.626063266">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.arm.managedbuilder.gcc.ARMGCCDiscoveryProfileCPP"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
